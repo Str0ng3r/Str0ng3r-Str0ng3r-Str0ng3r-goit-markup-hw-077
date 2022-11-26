@@ -78,7 +78,10 @@ info@devstudio.com</a></li>
             <textarea name="comment" id="comments" cols="30"
             class="comments-area" placeholder="Введіть текст" rows="10"></textarea>
             <div class="accept-list">
-                <input class="yes-value" type="checkbox" name="accept" value="yes" required>
+                <input class="yes-value hidden-type" type="checkbox" name="accept" id="yes-acc" value="yeas" required>
+                <label class="label-custom" for="yes-acc"><svg width="11px" height="8px" class="galka">
+                    <use href="./images/icons.svg#icon-Vector-galka"></use>
+                </svg></label>
                 <p>Погоджуюся з розсилкою та приймаю <a class="link-accept" href="#">Умови договору</a></p>
             </div>
             <button class="form-button-accept" type="submit">Відправити</button>
@@ -329,6 +332,17 @@ info@devstudio.com</a></li>
     </li>
     </ul>
     </div>
+    <div class="wrap-form">
+        <p>Підпишіться на розсилку</p>
+    <form action="" class="footer-form">
+        <label for="gmail.com">
+            <input class="label-footer" type="email" id="gmail.com" placeholder="E-mail"> 
+        </label>
+        <button>Підписатися <svg class="icon-telegramma" width="24px" height="24px">
+            <use href="./images/icons.svg#icon-icon-send"></use>
+        </svg></button>
+    </form>
+</div>
 </div>
 </footer>
 <script src="./JS/modal.js"></script>

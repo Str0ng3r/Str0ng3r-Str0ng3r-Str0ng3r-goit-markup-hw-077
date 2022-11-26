@@ -839,3 +839,86 @@ color: #757575;
 .form-button-accept:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+.hidden-type {
+    border: 0;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal !important;
+    clip: rect(1px,1px,1px,1px);
+    clip-path: inset(50%);
+}
+.label-custom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #212121;
+    border-radius: 2px;
+    width: 16px;
+    height: 16px;
+    margin-right: 7px;
+}
+.galka {
+    fill: #FFFFFF;
+}
+.yes-value:checked +.label-custom{
+    background-color: #2196F3;
+    border: none;
+}
+.label-footer {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
+.footer-form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2196F3;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    border: 0;
+    margin-left: 12px;
+    cursor: pointer;
+}
+.icon-telegramma {
+    fill: #FFFFFF;
+    margin-left: 10px;
+}
+.footer-form {
+    display: flex;
+}
+.wrap-form {
+    margin: auto 0;
+    margin-left: 93px;
+}
+.wrap-form p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.label-footer:focus {
+    outline: 0;
+    outline-offset: 0;
+}
