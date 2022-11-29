@@ -332,6 +332,10 @@ object-fit: contain;
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.comments-area::placeholder {
+    padding-left: 16px;
+    padding-top: 12px;
+}
 .buttons {
 width: 575px;
 display: flex;
@@ -701,7 +705,6 @@ padding: 63px 24px 63px 24px;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 528px;
-    height: 581px;
     display: flex;
     flex-direction: column;
     padding: 40px;
@@ -1097,12 +1100,15 @@ color: #757575;
     }
     .comments-area {
         width: 370px;
-        height: 120px;
-        margin-bottom: 20px;
+    }
+    .comments-area::placeholder {
+        padding-left: 16px;
+        padding-top: 12px;
     }
     .accept-list {
         margin: 0;
-        margin-bottom: 31px;
+        margin-top: 20px;
+        margin-bottom: 30px;
         align-items: baseline;
         justify-content: center;
     }
@@ -1135,6 +1141,10 @@ color: #757575;
     }
 }
 @media screen and (min-width:768px) and (max-width:1599px) {
+    .comments-area::placeholder {
+        padding-left: 16px;
+        padding-top: 12px;
+    }
     body {
         font-family: 'Roboto';
     }
@@ -1347,21 +1357,33 @@ color: #757575;
         padding: 0;
     }
     .buttons {
-        width: 326px;
-        flex-wrap: wrap;
-        justify-content: start;
+        width: 575px;
         gap: 8px;
-        margin: 0;
+        margin: 0 auto;
         margin-bottom: 40px;
     }
-    .projects {
-        justify-content: center;
+    .sorting-button {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
     }
     .projects li {
-        width: 100%;
+        width:354px;
     }
     .cont-img-direct {
         width: 100%;
+    }
+    .pb-56 {
+padding-bottom: 56px;
+    }
+    .main {
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
     .blue-swipe img {
         width: 100%;
@@ -1378,10 +1400,11 @@ color: #757575;
     .comments-area {
         width: 370px;
         height: 120px;
-        margin-bottom: 20px;
     }
+    
     .accept-list {
         margin: 0;
+        margin-top: 20px;
         margin-bottom: 31px;
         align-items: baseline;
         justify-content: center;
