@@ -37,8 +37,24 @@ info@devstudio.com</a></li>
     +38 096 111 11 11</a></li>
 </ul>
 </div>
+<button class="menu-mobile js-open-menu"> <svg class="menu-lines" width="24px" height="24px">
+    <use href="./images/icons.svg#icon-menu-mobile"></use>
+</svg>
+</button>
     </header>
 <section class="main-button">
+    <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-toggle js-close-menu">
+            <svg class="icon-toggle" width="19px" height="19px">
+                <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+        </button>
+        <ul class="mobile-list">
+    <li><a href="">Студія</a></li>
+    <li><a href="">Портфоліо</a></li>
+    <li><a href="">Контакти</a></li>
+        </ul>
+    </div>
     <div data-modal class="backdrop is-hidden">
         <form action="#" class="modal-form">
           <button data-modal-close type="button" class="close-btn-icon">
@@ -345,6 +361,7 @@ info@devstudio.com</a></li>
 </div>
 </div>
 </footer>
+<script src="./JS/mobile-menu.js"></script>
 <script src="./JS/modal.js"></script>
 </body>
 </html>
