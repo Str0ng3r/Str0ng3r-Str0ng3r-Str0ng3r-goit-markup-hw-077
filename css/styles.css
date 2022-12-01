@@ -381,7 +381,7 @@ display: block;
     z-index: 999;
     top: 0;
     left: 0;
-    transform: translateX(100%);
+    transform: translateX(300%);
     background-color: #FFFFFF;
     transition:transform 250ms ease-in-out;
 }
