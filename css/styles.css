@@ -83,6 +83,7 @@ section{
     padding-bottom: 94px;
 }
 .header {
+    overflow: hidden;
     background-color: #FFFFFF;
     display:flex;
     width: 100%;
