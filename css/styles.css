@@ -5,7 +5,6 @@ body {
     font-family: 'Roboto';
     color: #212121;
     width: 100%;
-    overflow: hidden;
 }
 h1 {
     margin: 0;
@@ -84,7 +83,6 @@ section{
     padding-bottom: 94px;
 }
 .header {
-    overflow: hidden;
     background-color: #FFFFFF;
     display:flex;
     width: 100%;
@@ -370,10 +368,8 @@ fill: #2196F3;
 }
 .menu-container.is-open {
 transform: translateX(0%);
-display: block;
 }
 .menu-container {
-    display:none ;
     position: fixed;
     padding: 32px;
     width: 100vw;
@@ -381,7 +377,7 @@ display: block;
     z-index: 999;
     top: 0;
     left: 0;
-    transform: translateX(300%);
+    transform: translateX(100%);
     background-color: #FFFFFF;
     transition:transform 250ms ease-in-out;
 }
