@@ -344,7 +344,6 @@ object-fit: contain;
     border: 0;
     background-color: #FFFFFF;
     cursor: pointer;
-    display: none;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -367,9 +366,11 @@ fill: #2196F3;
     fill: #212121;
 }
 .menu-container.is-open {
+    display: block;
 transform: translateX(0%);
 }
 .menu-container {
+    display: none;
     position: fixed;
     padding: 32px;
     width: 100vw;
