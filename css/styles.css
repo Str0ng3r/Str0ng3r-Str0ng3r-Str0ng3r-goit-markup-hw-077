@@ -370,8 +370,10 @@ fill: #2196F3;
 }
 .menu-container.is-open {
 transform: translateX(0%);
+display: block;
 }
 .menu-container {
+    display:none ;
     position: fixed;
     padding: 32px;
     width: 100vw;
