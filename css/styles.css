@@ -406,9 +406,7 @@ transform: translateX(0%);
     display: flex;
     left:40px ;
     bottom: 48px;
-    align-items: center;
-    width: 357px;
-    justify-content: space-between;
+
 }
 .soc-link-mob {
     font-family: 'Roboto';
@@ -469,6 +467,7 @@ transform: translateX(0%);
     height: 22px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     margin-left: 10px;
+    margin-right: 10px;
 }
 .buttons {
 width: 575px;
