@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color: #FFFFFF;
     margin:0;
     padding:0;
@@ -29,8 +29,8 @@ li {
 }
 a {
     text-decoration: none;
-}
- .head-li {
+} */
+ /* .head-li {
     color: #212121;
 }
 .links-hf {
@@ -62,27 +62,27 @@ a {
 }
 .links-hf:active {
     color: #2196F3;
-}
-.container {
+} */
+/* .container {
     width: 1200px;
     margin:0 auto;
     padding: 0 15px;
-}
+} */
 .wrap-footer {
     align-items: baseline;
     display: flex;
 }
 
-.header-cont-center{
+/* .header-cont-center{
 align-items: center;
     display: flex;
-}  
+}   */
 
-section{
+/* section{
     padding-top: 94px;
     padding-bottom: 94px;
-}
-.header {
+} */
+/* .header {
     background-color: #FFFFFF;
     display:flex;
     width: 100%;
@@ -99,20 +99,20 @@ section{
 .header img {
 object-fit: contain;
 margin-left: 215px;
-} 
-ul{
+}  */
+/* ul{
 list-style-type: none;
 margin: 0;
 padding: 0;
-}
-.links {
+} */
+/* .links {
     display: flex;
     align-items: center;
     justify-content:center;
     margin-left: auto;
     padding: 0;
-}
-.nav {
+} */
+/* .nav {
     width: 281px;
     margin-left: 93px;
     padding: 0;
@@ -121,8 +121,8 @@ padding: 0;
     display: flex;
     gap: 50px;
     color: #212121;
-}
-.mail {
+} */
+/* .mail {
     align-items: center;
     padding: 15px 0;
     display: flex;
@@ -137,8 +137,8 @@ padding: 0;
     display: flex;
     color: #757575;
     transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} 
-.main-button {
+}  */
+/* .main-button {
     display: flex;
     height: 600px;
     justify-content: center;
@@ -152,8 +152,8 @@ padding: 0;
     padding: 200px 0;
     margin-left: auto;
     margin-right: auto;
-}
-.main-cont-button button {
+} */
+/* .main-cont-button button {
     border-radius: 4px;
     background-color:#2196F3;
     width: 216px;
@@ -183,7 +183,7 @@ text-transform: uppercase;
 color: #FFFFFF;
 margin-top: 0;
 margin-bottom: 50px;
-}
+} */
 .cont-about {
 display: flex;
 align-items: center;
