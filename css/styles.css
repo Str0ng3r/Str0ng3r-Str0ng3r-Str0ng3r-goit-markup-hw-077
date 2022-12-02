@@ -339,6 +339,7 @@ object-fit: contain;
     padding-top: 12px;
 }
 .menu-mobile {
+    display: none;
     align-items: center;
     justify-content: center;
     border: 0;
@@ -1313,6 +1314,9 @@ color: #757575;
         height: 80px;
     }
     .non-top-padding {
+        display: none;
+    }
+    .menu-mobile {
         display: none;
     }
     .main-button {
