@@ -366,11 +366,9 @@ fill: #2196F3;
     fill: #212121;
 }
 .menu-container.is-open {
-    display: block;
 transform: translateX(0%);
 }
 .menu-container {
-    display: none;
     position: fixed;
     padding: 32px;
     width: 100vw;
@@ -1089,6 +1087,7 @@ color: #757575;
     .header {
         width: 100%;
         height: 60px;
+        position: fixed;
     }
     .non-top-padding {
         display: none;
