@@ -1,0 +1,39 @@
+.svg-regular-costumers {
+    fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .link-svg-regular-costumers {
+        border: 1px #AFB1B8 solid;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 92px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .link-svg-regular-costumers:hover .svg-regular-costumers {
+        fill: #2196F3;
+    }
+    .link-svg-regular-costumers:hover {
+        border-color: #2196F3;
+    }
+    .link-svg-regular-costumers:focus .svg-regular-costumers {
+        fill: #2196F3;
+    }
+    .link-svg-regular-costumers:focus {
+        border-color: #2196F3;
+    }
+    .list-svg-costumers {
+        width: 1170px;
+        height: 92px;
+        gap: 30px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin-top: 50px;
+    }
+    .list-svg-costumers li {
+        width: 170px;
+        height: 92px;
+    }
