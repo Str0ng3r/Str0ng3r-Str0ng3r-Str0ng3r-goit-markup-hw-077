@@ -159,25 +159,25 @@ justify-content: flex-start;
     .infor {
         text-align: center;
     }
-    .nav {
+    .nav__header {
         margin-left: 87px;
     }
-    .links {
+    .links__header {
         flex-direction: column;
         align-items: baseline;
         gap: 10px;
     }
-    .svg-img-header {
+    .svg-img__header {
         margin-right: 8px;
         width: 10px;
         height: 14px;
     }
-    .svg-img-header-1 {
+    .svg_message__header {
         margin-right:8px;
         width: 14px;
         height: 10px;
     }
-    .mail {
+    .mail__header {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
@@ -188,7 +188,7 @@ justify-content: flex-start;
     .link-child-tel {
         margin: 0;
     }
-    .tel {
+    .tel__header {
         font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -199,7 +199,7 @@ letter-spacing: 0.02em;
 color: #757575;
 
     }
-    .mail {
+    .mail__header {
         padding: 0;
     }
     .logo-webstudio {
@@ -214,7 +214,7 @@ color: #757575;
     .logo-webstudio span {
         color: #2196F3;
     }
-    .tel {
+    .tel__header {
         padding: 0;
     }
     .buttons {
