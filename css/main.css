@@ -213,7 +213,7 @@ ul {
   padding: 0;
 }
 
-.main-cont-button button {
+.cont-button__main-button button {
   border-radius: 4px;
   background-color: #2196F3;
   width: 216px;
@@ -238,7 +238,7 @@ ul {
   letter-spacing: 0.06em;
 }
 
-.main-cont-button h1 {
+.h1_text__main-button {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
@@ -821,7 +821,7 @@ ul {
   color: #FFFFFF;
 }
 
-.regular-cont-costumers h2 {
+.text_h2__regular-costumers {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -832,13 +832,13 @@ ul {
   color: #212121;
 }
 
-.svg-regular-costumers {
+.svg__regular-costumers {
   fill: #AFB1B8;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-svg-regular-costumers {
+.link-svg__regular-costumers {
   border: 1px #AFB1B8 solid;
   border-radius: 4px;
   display: -webkit-box;
@@ -855,23 +855,23 @@ ul {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-svg-regular-costumers:hover .svg-regular-costumers {
+.link-svg__regular-costumers:hover .svg__regular-costumers {
   fill: #2196F3;
 }
 
-.link-svg-regular-costumers:hover {
+.link-svg__regular-costumers:hover {
   border-color: #2196F3;
 }
 
-.link-svg-regular-costumers:focus .svg-regular-costumers {
+.link-svg__regular-costumers:focus .svg__regular-costumers {
   fill: #2196F3;
 }
 
-.link-svg-regular-costumers:focus {
+.link-svg__regular-costumers:focus {
   border-color: #2196F3;
 }
 
-.list-svg-costumers {
+.list-svg__regular-costumers {
   width: 1170px;
   height: 92px;
   gap: 30px;
@@ -886,7 +886,7 @@ ul {
   margin-top: 50px;
 }
 
-.list-svg-costumers li {
+.li-svg__regular-costumers {
   width: 170px;
   height: 92px;
 }
