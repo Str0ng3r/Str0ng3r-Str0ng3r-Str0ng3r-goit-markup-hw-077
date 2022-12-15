@@ -27,6 +27,7 @@
   line-height: 16px;
   letter-spacing: 0.02em;
   border-bottom: solid 1px #ECECEC;
+  overflow: hidden;
 }
 
 .header img {
@@ -542,6 +543,12 @@ ul {
 .cross-btn {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+textarea {
+  resize: none;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 .soft {
@@ -1448,7 +1455,7 @@ ul {
     height: auto;
     padding: 118px 0;
   }
-  .list-svg-costumers {
+  .list-svg__regular-costumers {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     width: 400px;
@@ -1595,8 +1602,14 @@ ul {
   .infor {
     text-align: center;
   }
+  .label-custom {
+    border: 2px solid #212121;
+  }
   .nav__header {
     display: none;
+  }
+  .navig__header {
+    gap: 40px;
   }
   .links__header {
     display: none;
@@ -1748,6 +1761,19 @@ ul {
     color: #FFFFFF;
     margin-bottom: 30px;
   }
+  .list_social__header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    gap: 10px;
+  }
+  .label-custom {
+    border: 2px solid #212121;
+  }
   .container {
     width: 738px;
     padding: 0;
@@ -1767,17 +1793,26 @@ ul {
     padding: 118px 0;
     height: auto;
   }
-  .list-svg-costumers li {
+  .list-svg__regular-costumers li {
     width: 226px;
     height: 92px;
   }
-  .list-svg-costumers {
+  .list-svg__regular-costumers {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    width: 100%;
+    width: auto;
     height: auto;
     margin: 0 auto;
     margin-right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .close-btn-icon {
     width: 30px;
@@ -1931,6 +1966,9 @@ ul {
   .nav__header {
     margin-left: 87px;
   }
+  .navig__header {
+    gap: 40px;
+  }
   .links__header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1939,7 +1977,6 @@ ul {
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
-    gap: 10px;
   }
   .svg-img__header {
     margin-right: 8px;
@@ -1958,6 +1995,10 @@ ul {
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.02em;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
   .link-child-tel {
     margin: 0;
@@ -1970,6 +2011,10 @@ ul {
     line-height: 14px;
     letter-spacing: 0.02em;
     color: #757575;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
   .mail__header {
     padding: 0;

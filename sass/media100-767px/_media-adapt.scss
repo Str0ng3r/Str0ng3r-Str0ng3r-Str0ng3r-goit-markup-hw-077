@@ -39,7 +39,7 @@
         height: auto;
         padding: 118px 0;
     }
-    .list-svg-costumers {
+    .list-svg__regular-costumers {
         flex-wrap: wrap;
         width: 400px;
         height: auto;
@@ -139,8 +139,14 @@
     .infor {
         text-align: center;
     }
+    .label-custom {
+        border: 2px solid #212121;
+    }
     .nav__header {
         display: none;
+    }
+    .navig__header {
+        gap: 40px;
     }
     .links__header {
         display: none;

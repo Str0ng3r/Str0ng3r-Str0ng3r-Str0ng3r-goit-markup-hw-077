@@ -26,6 +26,14 @@
         color: #FFFFFF;
         margin-bottom: 30px;
     }
+    .list_social__header {
+    flex-direction: column;
+    align-items: baseline;
+    gap: 10px;
+    }
+    .label-custom {
+        border: 2px solid #212121;
+    }
     .container {
         width: 738px;
         padding: 0;
@@ -45,16 +53,19 @@
         padding: 118px 0;
         height: auto;
     }
-    .list-svg-costumers li {
+    .list-svg__regular-costumers li {
         width: 226px;
         height: 92px;
     }
-    .list-svg-costumers {
+    .list-svg__regular-costumers {
         flex-wrap: wrap;
-        width: 100%;
+        width: auto;
         height: auto;
         margin: 0 auto;
         margin-right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .close-btn-icon {
         width: 30px;
@@ -162,10 +173,12 @@ justify-content: flex-start;
     .nav__header {
         margin-left: 87px;
     }
+    .navig__header {
+        gap: 40px;
+    }
     .links__header {
         flex-direction: column;
         align-items: baseline;
-        gap: 10px;
     }
     .svg-img__header {
         margin-right: 8px;
@@ -184,6 +197,7 @@ justify-content: flex-start;
         font-size: 12px;
         line-height: 14px;
         letter-spacing: 0.02em;
+        flex-direction: row;
     }
     .link-child-tel {
         margin: 0;
@@ -194,10 +208,9 @@ font-style: normal;
 font-weight: 500;
 font-size: 12px;
 line-height: 14px;
-
 letter-spacing: 0.02em;
 color: #757575;
-
+flex-direction: row;
     }
     .mail__header {
         padding: 0;
