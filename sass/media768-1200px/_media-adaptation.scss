@@ -1,4 +1,4 @@
-@media screen and (min-width:768px) and (max-width:1199px) {
+@media screen and (min-width:768px) {
     .comments-area::placeholder {
         padding-left: 16px;
         padding-top: 12px;
@@ -34,8 +34,13 @@
     .label-custom {
         border: 2px solid #212121;
     }
+    .menu-container {
+        display: none;
+        opacity: none;
+        position: absolute;
+    }
     .container {
-        width: 738px;
+        max-width: 768px;
         padding: 0;
     }
     .header {
